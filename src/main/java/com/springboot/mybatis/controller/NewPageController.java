@@ -22,7 +22,12 @@ public class NewPageController {
         map.put("age", 18);
         map.put("studentNo", "111111111111");
         map.put("sex", "男");
-        System.out.println("=========get reqeust======");
         return map;
     }
+	
+	// 测试sonar检测
+	public static void main(String[] args) {
+		String str = null;
+		Integer.valueOf(str);	
+	}
 }
